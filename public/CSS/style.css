@@ -276,7 +276,7 @@ section h3.section-subheading {
     z-index: 2
 }
 
-@media (max-width:569px) {
+@media (min-width:569px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px
     }
