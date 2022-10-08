@@ -31,10 +31,12 @@
         <div class="row">
             <% for( let index = 0; index < teams.length; index++ ) { %>
             <div class="col-sm-4">
-                <div class="team-member" style="width:240px">
+                <div class="team-member" style="width:240px; height:240px">
                     <img
                         src="<%= teams[index].imageURL %>"
                         class="img-responsive img-circle"
+                        width="240"
+                        height="240"
                         alt=""
                     />
                     <h4 style="font-weight: bold;">Rtr. <%= teams[index].name %></h4>
